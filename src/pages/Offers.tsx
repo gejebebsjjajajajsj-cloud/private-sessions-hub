@@ -10,32 +10,33 @@ const createWhatsAppLink = (text: string) => {
 const Offers = () => {
   return (
     <main className="min-h-screen bg-foreground text-background">
-      <section className="mx-auto flex min-h-screen w-full max-w-xl flex-col gap-6 px-4 py-8 sm:max-w-2xl sm:px-6 sm:py-10 lg:max-w-3xl lg:px-8">
-        <header className="space-y-2 text-center">
-          <p className="text-xs font-semibold tracking-[0.25em] text-muted-foreground/80 uppercase">
+      <section className="mx-auto flex min-h-screen w-full max-w-lg flex-col gap-4 px-4 py-6 sm:max-w-xl sm:px-5 sm:py-8 lg:max-w-2xl">
+        <header className="space-y-1 text-center">
+          <p className="text-[10px] font-semibold tracking-[0.25em] text-muted-foreground/80 uppercase">
             Atendimento exclusivo pelo WhatsApp
           </p>
-          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+          <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">
             Escolha como quer se conectar comigo
           </h1>
         </header>
 
-        <div className="flex flex-1 flex-col gap-6 py-4">
-          <section className="flex w-full flex-col gap-3 rounded-xl bg-background/10 p-4 shadow-sm ring-1 ring-border/60 sm:p-5">
-            <h2 className="text-base font-semibold tracking-tight sm:text-lg">
+        <div className="flex flex-1 flex-col gap-4 py-3">
+          <section className="flex w-full flex-col gap-2 rounded-xl bg-background/10 p-3 shadow-sm ring-1 ring-border/60 sm:p-4">
+            <h2 className="text-sm font-semibold tracking-tight sm:text-base">
               Fotos, vídeos e conteúdos +18
             </h2>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs text-muted-foreground sm:text-sm">
               Conteúdos exclusivos, personalizados e enviados diretamente para você com toda a discrição.
             </p>
-            <ul className="list-disc space-y-1 pl-4 text-sm text-muted-foreground/90">
+            <ul className="list-disc space-y-0.5 pl-4 text-xs text-muted-foreground/90 sm:text-sm">
               <li>Pacotes de fotos e vídeos sob medida</li>
               <li>Conteúdos privados e exclusivos</li>
               <li>Atendimento rápido e sigiloso</li>
             </ul>
-            <div className="pt-2">
+            <div className="pt-1.5">
               <Button
                 className="w-full sm:w-auto"
+                size="sm"
                 asChild
               >
                 <a
@@ -51,21 +52,22 @@ const Offers = () => {
             </div>
           </section>
 
-          <section className="flex w-full flex-col gap-3 rounded-xl bg-background/10 p-4 shadow-sm ring-1 ring-border/60 sm:p-5">
-            <h2 className="text-base font-semibold tracking-tight sm:text-lg">
+          <section className="flex w-full flex-col gap-2 rounded-xl bg-background/10 p-3 shadow-sm ring-1 ring-border/60 sm:p-4">
+            <h2 className="text-sm font-semibold tracking-tight sm:text-base">
               Chamada de vídeo e encontros
             </h2>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs text-muted-foreground sm:text-sm">
               Combine chamadas de vídeo ou encontros de forma segura, clara e discreta pelo WhatsApp.
             </p>
-            <ul className="list-disc space-y-1 pl-4 text-sm text-muted-foreground/90">
+            <ul className="list-disc space-y-0.5 pl-4 text-xs text-muted-foreground/90 sm:text-sm">
               <li>Chamadas de vídeo combinadas diretamente comigo</li>
               <li>Opções de duração e valores explicados no chat</li>
               <li>Encontros presenciais combinados com segurança</li>
             </ul>
-            <div className="pt-2">
+            <div className="pt-1.5">
               <Button
                 className="w-full sm:w-auto"
+                size="sm"
                 asChild
               >
                 <a
