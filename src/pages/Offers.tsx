@@ -19,32 +19,28 @@ const Offers = () => {
             Escolha como quer se conectar comigo
           </h1>
         </header>
- 
+
         <div className="flex flex-1 flex-col gap-4 py-3">
           <section className="flex w-full flex-col gap-2 rounded-xl bg-background/10 p-3 shadow-sm ring-1 ring-border/60 sm:p-4">
             <h2 className="text-sm font-bold tracking-tight sm:text-base">
-               Fotos, vídeos e conteúdos +18
-             </h2>
-             <p className="text-xs text-background/80 sm:text-sm">
-               <span className="font-semibold text-foreground">Conteúdos exclusivos e personalizados</span>, enviados diretamente para você com toda a discrição.
-             </p>
-             <ul className="list-disc space-y-0.5 pl-4 text-xs text-background/70 sm:text-sm">
+              Fotos, vídeos e conteúdos +18
+            </h2>
+            <p className="text-xs text-background/80 sm:text-sm">
+              <span className="font-semibold text-background">Conteúdos exclusivos e personalizados</span>, enviados diretamente para você com toda a discrição.
+            </p>
+            <ul className="list-disc space-y-0.5 pl-4 text-xs text-background/70 sm:text-sm">
               <li>
-                <span className="font-semibold text-foreground">Pacotes sob medida</span> com fotos e vídeos do jeitinho que você gosta
+                <span className="font-semibold text-background">Pacotes sob medida</span> com fotos e vídeos do jeitinho que você gosta
               </li>
               <li>
-                <span className="font-semibold text-foreground">Conteúdos privados</span> e feitos especialmente para você
+                <span className="font-semibold text-background">Conteúdos privados</span> e feitos especialmente para você
               </li>
               <li>
-                <span className="font-semibold text-foreground">Atendimento rápido</span> e totalmente sigiloso
+                <span className="font-semibold text-background">Atendimento rápido</span> e totalmente sigiloso
               </li>
             </ul>
             <div className="pt-1.5">
-              <Button
-                className="w-full sm:w-auto"
-                size="sm"
-                asChild
-              >
+              <Button className="w-full sm:w-auto" size="sm" asChild>
                 <a
                   href={createWhatsAppLink(
                     "Oi, vi sua página e quero saber mais sobre os conteúdos +18."
@@ -59,29 +55,25 @@ const Offers = () => {
           </section>
 
           <section className="flex w-full flex-col gap-2 rounded-xl bg-background/10 p-3 shadow-sm ring-1 ring-border/60 sm:p-4">
-             <h2 className="text-sm font-bold tracking-tight sm:text-base">
-               Chamada de vídeo e encontros
-             </h2>
-             <p className="text-xs text-background/80 sm:text-sm">
-               <span className="font-semibold text-foreground">Combine tudo direto comigo pelo WhatsApp</span>, de forma segura, clara e discreta.
-             </p>
-             <ul className="list-disc space-y-0.5 pl-4 text-xs text-background/70 sm:text-sm">
+            <h2 className="text-sm font-bold tracking-tight sm:text-base">
+              Chamada de vídeo e encontros
+            </h2>
+            <p className="text-xs text-background/80 sm:text-sm">
+              <span className="font-semibold text-background">Combine tudo direto comigo pelo WhatsApp</span>, de forma segura, clara e discreta.
+            </p>
+            <ul className="list-disc space-y-0.5 pl-4 text-xs text-background/70 sm:text-sm">
               <li>
-                <span className="font-semibold text-foreground">Chamadas de vídeo</span> combinadas diretamente comigo
+                <span className="font-semibold text-background">Chamadas de vídeo</span> combinadas diretamente comigo
               </li>
               <li>
-                <span className="font-semibold text-foreground">Duração e valores</span> explicados com calma no chat
+                <span className="font-semibold text-background">Duração e valores</span> explicados com calma no chat
               </li>
               <li>
-                <span className="font-semibold text-foreground">Encontros presenciais</span> combinados com toda segurança
+                <span className="font-semibold text-background">Encontros presenciais</span> combinados com toda segurança
               </li>
             </ul>
             <div className="pt-1.5">
-              <Button
-                className="w-full sm:w-auto"
-                size="sm"
-                asChild
-              >
+              <Button className="w-full sm:w-auto" size="sm" asChild>
                 <a
                   href={createWhatsAppLink(
                     "Oi, vi sua página e quero combinar chamada de vídeo ou encontro."
