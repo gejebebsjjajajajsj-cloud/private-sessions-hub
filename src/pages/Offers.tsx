@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-const WHATSAPP_NUMBER = "5599999999999"; // Substitua pelo seu número no formato DDI + DDD + número
+const WHATSAPP_NUMBER = "5511974079257"; // Substitua pelo seu número no formato DDI + DDD + número
 
 const createWhatsAppLink = (text: string) => {
   const encoded = encodeURIComponent(text);
