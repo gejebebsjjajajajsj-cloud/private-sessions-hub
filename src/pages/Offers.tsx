@@ -12,17 +12,17 @@ const Offers = () => {
     <main className="min-h-screen bg-foreground text-background">
       <section className="mx-auto flex min-h-screen w-full max-w-lg flex-col gap-4 px-4 py-6 sm:max-w-xl sm:px-5 sm:py-8 lg:max-w-2xl">
         <header className="space-y-1 text-center">
-          <p className="text-[10px] font-semibold tracking-[0.25em] text-primary uppercase">
+          <p className="text-[10px] font-semibold tracking-[0.25em] text-muted-foreground/80 uppercase">
             Atendimento exclusivo pelo WhatsApp
           </p>
           <h1 className="text-xl font-bold tracking-tight sm:text-2xl">
-            <span className="text-primary">Escolha</span> como quer se conectar comigo
+            Escolha como quer se conectar comigo
           </h1>
         </header>
 
         <div className="flex flex-1 flex-col gap-4 py-3">
           <section className="flex w-full flex-col gap-2 rounded-xl bg-background/10 p-3 shadow-sm ring-1 ring-border/60 sm:p-4">
-            <h2 className="text-sm font-bold tracking-tight text-primary sm:text-base">
+            <h2 className="text-sm font-bold tracking-tight sm:text-base">
               Fotos, vídeos e conteúdos +18
             </h2>
             <p className="text-xs text-muted-foreground sm:text-sm">
@@ -59,7 +59,7 @@ const Offers = () => {
           </section>
 
           <section className="flex w-full flex-col gap-2 rounded-xl bg-background/10 p-3 shadow-sm ring-1 ring-border/60 sm:p-4">
-            <h2 className="text-sm font-bold tracking-tight text-primary sm:text-base">
+            <h2 className="text-sm font-bold tracking-tight sm:text-base">
               Chamada de vídeo e encontros
             </h2>
             <p className="text-xs text-muted-foreground sm:text-sm">
